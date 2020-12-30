@@ -1,4 +1,5 @@
 class Solution:
+    
     def reorderLogFiles(self, logs: List[str]) -> List[str]:
         def get_key(log):
             identifier, rest = log.split(' ', maxsplit = 1) # split the log with space and do only 1 split. default is -1.
